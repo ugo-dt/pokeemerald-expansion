@@ -2710,9 +2710,9 @@ static void DisplayParty4DigitsHP(struct PartyMenuBox *menuBox, const u8 *str, c
 static void DisplayPartyPokemonHP(u16 hp, u16 maxhp, struct PartyMenuBox *menuBox)
 {
     bool32 fourDigits = (maxhp >= 1000);
-    u8 *strOut = ConvertIntToDecimalStringN(gStringVar1, hp, STR_CONV_MODE_LEFT_ALIGN, fourDigits ? 4 : 3); //STR_CONV_MODE_RIGHT_ALIGN
+    u8 *strOut = ConvertIntToDecimalStringN(gStringVar1, hp, STR_CONV_MODE_RIGHT_ALIGN, fourDigits ? 4 : 3);
 
-    //strOut[0] = CHAR_SLASH;
+    strOut[0] = CHAR_SLASH;
     strOut[1] = EOS;
 
     if (fourDigits)
