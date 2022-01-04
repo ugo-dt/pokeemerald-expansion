@@ -985,7 +985,7 @@ static void LoadPartyMenuBoxes(u8 layout)
     }
     // The first party mon goes in the left column
     if (layout != PARTY_LAYOUT_SINGLE) //Custom party menu
-    sPartyMenuBoxes[0].infoRects = &sPartyBoxInfoRects[PARTY_BOX_LEFT_COLUMN];
+        sPartyMenuBoxes[0].infoRects = &sPartyBoxInfoRects[PARTY_BOX_LEFT_COLUMN];
 
     if (layout == PARTY_LAYOUT_MULTI_SHOWCASE)
         sPartyMenuBoxes[3].infoRects = &sPartyBoxInfoRects[PARTY_BOX_LEFT_COLUMN];
@@ -2493,10 +2493,10 @@ static void DrawEmptySlot(u8 windowId)
     if (gPartyMenu.layout == PARTY_LAYOUT_SINGLE) //Custom party menu
         BlitBitmapToPartyWindow(windowId, sEqualEmptySlotTileNums, 14, 0, 0, 14, 5);//
     else
-    BlitBitmapToPartyWindow(windowId, sSlotTilemap_WideEmpty, 18, 0, 0, 18, 3);
+        BlitBitmapToPartyWindow(windowId, sSlotTilemap_WideEmpty, 18, 0, 0, 18, 3);
 }
 
- //Custom party menu
+//Custom party menu
 static void BlitBitmapToPartyWindow_Equal(u8 windowId, u8 x, u8 y, u8 width, u8 height, u8 isEgg)
 {
     if (width == 0 && height == 0)
@@ -4929,8 +4929,8 @@ void ItemUseCB_Medicine(u8 taskId, TaskFunc task)
             PlaySE(SE_GLASS_FLUTE);
         }
         SetPartyMonAilmentGfx(mon, &sPartyMenuBoxes[gPartyMenu.slotId]);
-        if (gSprites[sPartyMenuBoxes[gPartyMenu.slotId].statusSpriteId].invisible)
-            DisplayPartyPokemonLevelCheck(mon, &sPartyMenuBoxes[gPartyMenu.slotId], 1);
+        //if (gSprites[sPartyMenuBoxes[gPartyMenu.slotId].statusSpriteId].invisible)
+        DisplayPartyPokemonLevelCheck(mon, &sPartyMenuBoxes[gPartyMenu.slotId], 1);
         if (canHeal == TRUE)
         {
             if (hp == 0)
@@ -5890,8 +5890,8 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
 static void UpdateMonDisplayInfoAfterRareCandy(u8 slot, struct Pokemon *mon)
 {
     SetPartyMonAilmentGfx(mon, &sPartyMenuBoxes[slot]);
-    if (gSprites[sPartyMenuBoxes[slot].statusSpriteId].invisible)
-        DisplayPartyPokemonLevelCheck(mon, &sPartyMenuBoxes[slot], 1);
+    //if (gSprites[sPartyMenuBoxes[slot].statusSpriteId].invisible)
+    DisplayPartyPokemonLevelCheck(mon, &sPartyMenuBoxes[slot], 1);
     DisplayPartyPokemonHPCheck(mon, &sPartyMenuBoxes[slot], 1);
     DisplayPartyPokemonMaxHPCheck(mon, &sPartyMenuBoxes[slot], 1);
     DisplayPartyPokemonHPBarCheck(mon, &sPartyMenuBoxes[slot]);
@@ -6168,8 +6168,8 @@ static void UseSacredAsh(u8 taskId)
 
     PlaySE(SE_USE_ITEM);
     SetPartyMonAilmentGfx(mon, &sPartyMenuBoxes[gPartyMenu.slotId]);
-    if (gSprites[sPartyMenuBoxes[gPartyMenu.slotId].statusSpriteId].invisible)
-        DisplayPartyPokemonLevelCheck(mon, &sPartyMenuBoxes[gPartyMenu.slotId], 1);
+    //if (gSprites[sPartyMenuBoxes[gPartyMenu.slotId].statusSpriteId].invisible)
+    DisplayPartyPokemonLevelCheck(mon, &sPartyMenuBoxes[gPartyMenu.slotId], 1);
     AnimatePartySlot(sPartyMenuInternal->tLastSlotUsed, 0);
     AnimatePartySlot(gPartyMenu.slotId, 1);
     PartyMenuModifyHP(taskId, gPartyMenu.slotId, 1, GetMonData(mon, MON_DATA_HP) - hp, Task_SacredAshDisplayHPRestored);
