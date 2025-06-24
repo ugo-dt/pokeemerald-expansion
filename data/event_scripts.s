@@ -883,11 +883,11 @@ Common_EventScript_PlayerHandedOverTheItem::
 @ The below and surf.inc could be split into some text/notices.inc
 gText_PokemartSign::
 	.string "“Selected items for your convenience!”\n"
-	.string "Pokémon MART$"
+	.string "Pokémon Mart$"
 
 gText_PokemonCenterSign::
 	.string "“Rejuvenate your tired partners!”\n"
-	.string "Pokémon CENTER$"
+	.string "Pokémon Center$"
 
 gText_MomOrDadMightLikeThisProgram::
 	.string "{STR_VAR_1} might like this program.\n"
@@ -903,15 +903,15 @@ gText_SandstormIsVicious::
 	.string "It's impossible to keep going.$"
 
 gText_SelectWithoutRegisteredItem::
-	.string "An item in the BAG can be\n"
-	.string "registered to SELECT for easy use.$"
+	.string "An item in the Bag can be registered\n"
+	.string "to the Select button for easy use.$"
 
 gText_PokemonTrainerSchoolEmail::
-	.string "There's an e-mail from Pokémon TRAINER\n"
-	.string "SCHOOL.\p"
+	.string "There's an e-mail from Pokémon Trainer\n"
+	.string "School.\p"
 	.string "… … … … … …\p"
 	.string "A Pokémon may learn up to four moves.\p"
-	.string "A TRAINER's expertise is tested on the\n"
+	.string "A Trainer's expertise is tested on the\n"
 	.string "move sets chosen for Pokémon.\p"
 	.string "… … … … … …$"
 
@@ -939,8 +939,8 @@ gText_MonsHealedShouldBuyPotions::
 	.string "If your Pokémon's energy, HP,\n"
 	.string "is down, please come see us.\p"
 	.string "If you're planning to go far in the\n"
-	.string "field, you should buy some POTIONS\l"
-	.string "at the Pokémon MART.\p"
+	.string "field, you should buy some Potions\l"
+	.string "at the Pokémon Mart.\p"
 	.string "We hope you excel!$"
 
 gText_MonsHealed::
@@ -964,21 +964,21 @@ gText_MomExplainHPGetPotions::
 	.string "measured in HP.\p"
 	.string "If your Pokémon lose their HP,\n"
 	.string "you can restore them at any\l"
-	.string "Pokémon CENTER.\p"
+	.string "Pokémon Center.\p"
 	.string "If you're going to travel far away,\n"
-	.string "the smart TRAINER stocks up on\l"
-	.string "POTIONS at the Pokémon MART.\p"
+	.string "the smart Trainer stocks up on\l"
+	.string "Potions at the Pokémon Mart.\p"
 	.string "Make me proud, honey!\p"
 	.string "Take care!$"
 
 gText_RegisteredTrainerinPokeNav::
 	.string "Registered {STR_VAR_1} {STR_VAR_2}\n"
-	.string "in the POKéNAV.$"
+	.string "in the PokéNav.$"
 
 gText_ComeBackWithSecretPower::
-	.string "Do you know the TM SECRET POWER?\p"
-	.string "Our group, we love the TM SECRET\n"
-	.string "POWER.\p"
+	.string "Do you know the TM Secret Power?\p"
+	.string "Our group, we love the TM Secret\n"
+	.string "Power.\p"
 	.string "One of our members will give it to you.\n"
 	.string "Come back and show me if you get it.\p"
 	.string "We'll accept you as a member and sell\n"
@@ -986,8 +986,8 @@ gText_ComeBackWithSecretPower::
 
 gText_PokerusExplanation::
 	.string "Your Pokémon may be infected with\n"
-	.string "POKéRUS.\p"
-	.string "Little is known about the POKéRUS\n"
+	.string "Pokérus.\p"
+	.string "Little is known about the Pokérus\n"
 	.string "except that they are microscopic life-\l"
 	.string "forms that attach to Pokémon.\p"
 	.string "While infected, Pokémon are said to\n"
@@ -1004,7 +1004,7 @@ gText_BigHoleInTheWall::
 
 gText_SorryWirelessClubAdjustments::
 	.string "I'm terribly sorry.\n"
-	.string "The Pokémon WIRELESS CLUB is\l"
+	.string "The Pokémon Wireless Club is\l"
 	.string "undergoing adjustments now.$"
 
 gText_UndergoingAdjustments::
@@ -1013,12 +1013,12 @@ gText_UndergoingAdjustments::
 
 @ Unused
 gText_SorryTradeCenterInspections::
-	.string "I'm terribly sorry. The TRADE CENTER\n"
+	.string "I'm terribly sorry. The Trade Center\n"
 	.string "is undergoing inspections.$"
 
 @ Unused
 gText_SorryRecordCornerPreparation::
-	.string "I'm terribly sorry. The RECORD CORNER\n"
+	.string "I'm terribly sorry. The Record Corner\n"
 	.string "is under preparation.$"
 
 gText_PlayerHandedOverTheItem::

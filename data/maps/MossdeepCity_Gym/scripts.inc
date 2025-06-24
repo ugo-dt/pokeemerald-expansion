@@ -385,7 +385,7 @@ MossdeepCity_Gym_Text_GymGuideAdvice:
 
 MossdeepCity_Gym_Text_GymGuidePostVictory:
 	.string "Wow, you're astounding!\n"
-	.string "You're one great TRAINER!$"
+	.string "You're one great Trainer!$"
 
 MossdeepCity_Gym_Text_PrestonIntro:
 	.string "Battles hinge on the strength of your\n"
@@ -592,7 +592,7 @@ MossdeepCity_Gym_Text_ExplainCalmMind:
 
 MossdeepCity_Gym_Text_RegisteredTateAndLiza:
 	.string "Registered GYM LEADERS Tate & Liza\n"
-	.string "in the POKéNAV.$"
+	.string "in the PokéNav.$"
 
 MossdeepCity_Gym_Text_TateAndLizaPostBattle:
 	.string "Tate: Looks like the bond between you\n"
@@ -615,7 +615,7 @@ MossdeepCity_Gym_Text_GymStatue:
 
 MossdeepCity_Gym_Text_GymStatueCertified:
 	.string "Mossdeep City Pokémon GYM\p"
-	.string "Liza AND Tate'S CERTIFIED TRAINERS:\n"
+	.string "Liza AND Tate'S CERTIFIED Trainers:\n"
 	.string "{PLAYER}$"
 
 MossdeepCity_Gym_Text_TateAndLizaPreRematch:

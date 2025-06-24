@@ -529,7 +529,7 @@ static const struct MenuAction MultichoiceList_ContestRank[] =
 
 static const struct MenuAction MultichoiceList_FrontierItemChoose[] =
 {
-    {COMPOUND_STRING("BATTLE BAG")},
+    {COMPOUND_STRING("BATTLE Bag")},
     {COMPOUND_STRING("HELD ITEM")},
     {gText_Exit},
 };
@@ -678,15 +678,15 @@ static const struct MenuAction MultichoiceList_BattlePalaceRules[] =
 static const struct MenuAction MultichoiceList_BattlePyramidRules[] =
 {
     {COMPOUND_STRING("PYRAMID: Pokémon")},
-    {COMPOUND_STRING("PYRAMID: TRAINERS")},
+    {COMPOUND_STRING("PYRAMID: Trainers")},
     {COMPOUND_STRING("PYRAMID: MAZE")},
-    {COMPOUND_STRING("BATTLE BAG")},
+    {COMPOUND_STRING("BATTLE Bag")},
     {gText_Exit},
 };
 
 static const struct MenuAction MultichoiceList_BattlePikeRules[] =
 {
-    {COMPOUND_STRING("POKéNAV AND BAG")},
+    {COMPOUND_STRING("PokéNav AND Bag")},
     {COMPOUND_STRING("HELD ITEMS")},
     {COMPOUND_STRING("Pokémon ORDER")},
     {gText_Exit},

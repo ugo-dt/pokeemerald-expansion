@@ -1146,7 +1146,7 @@ PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon:
 	.string "Oh, I see.\n"
 	.string "You're with your Pokémon.\p"
 	.string "Hm… Then I guess you're going to\n"
-	.string "become a TRAINER like me, {PLAYER}.\p"
+	.string "become a Trainer like me, {PLAYER}.\p"
 	.string "That's great news!\n"
 	.string "I'll be looking forward to it!$"
 
@@ -1213,7 +1213,7 @@ PetalburgCity_Gym_Text_WallyThankYouBye:
 PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string "Dad: Now…\p"
 	.string "{PLAYER}, if you want to become a\n"
-	.string "strong TRAINER, here's my advice.\p"
+	.string "strong Trainer, here's my advice.\p"
 	.string "Head for Rustboro City beyond this\n"
 	.string "town.\p"
 	.string "There, you should challenge\n"
@@ -1231,7 +1231,7 @@ PetalburgCity_Gym_Text_NormanGoToRustboro:
 	.string "Dad: Hm? Aren't you going to the\n"
 	.string "Pokémon GYM in Rustboro City?\p"
 	.string "There's no challenge for me to\n"
-	.string "battle a greenhorn TRAINER.\p"
+	.string "battle a greenhorn Trainer.\p"
 	.string "{PLAYER}, I want you to challenge me\n"
 	.string "when you become a lot stronger.\p"
 	.string "I'll battle you, {PLAYER}, when you\n"
@@ -1240,7 +1240,7 @@ PetalburgCity_Gym_Text_NormanGoToRustboro:
 PetalburgCity_Gym_Text_NormanGoToDewford:
 	.string "Dad: I see… So, you've beaten\n"
 	.string "the GYM LEADER in Rustboro City.\p"
-	.string "But there are many more TRAINERS\n"
+	.string "But there are many more Trainers\n"
 	.string "who are stronger than you, {PLAYER}.\p"
 	.string "Across the sea in Dewford Town is a\n"
 	.string "GYM LEADER named Brawly.\p"
@@ -1315,7 +1315,7 @@ PetalburgCity_Gym_Text_DadGoingToKeepTraining:
 	.string "your mother every so often.\p"
 	.string "I'm going to stay here and redouble\n"
 	.string "my training.\p"
-	.string "It would bother me as a TRAINER to\n"
+	.string "It would bother me as a Trainer to\n"
 	.string "not avenge my loss to you, {PLAYER}!$"
 
 PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough:
@@ -1328,10 +1328,10 @@ PetalburgCity_Gym_Text_GymGuideAdvice:
 	.string "Hey, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
 	.string "The doors in this GYM open when you\n"
-	.string "beat the awaiting TRAINERS.\p"
+	.string "beat the awaiting Trainers.\p"
 	.string "Whoops! The doors in this room are\n"
 	.string "already open, so don't attack me!\p"
-	.string "The TRAINERS of PETALBURG GYM\n"
+	.string "The Trainers of PETALBURG GYM\n"
 	.string "use all kinds of items.\p"
 	.string "The door at the left leads to\n"
 	.string "the Speed ROOM.\p"
@@ -1403,7 +1403,7 @@ PetalburgCity_Gym_Text_GeorgeDefeat:
 PetalburgCity_Gym_Text_GeorgePostBattle:
 	.string "I should have expected no less from\n"
 	.string "our LEADER's kid.\p"
-	.string "No, wait! A TRAINER's abilities are\n"
+	.string "No, wait! A Trainer's abilities are\n"
 	.string "earned only through effort.\p"
 	.string "I lost because my own efforts\n"
 	.string "weren't enough.\p"
@@ -1425,7 +1425,7 @@ PetalburgCity_Gym_Text_BerkeDefeat:
 
 PetalburgCity_Gym_Text_BerkePostBattle:
 	.string "Your father really is strong.\n"
-	.string "He's a TRAINER worth my respect.\p"
+	.string "He's a Trainer worth my respect.\p"
 	.string "And, I sense the same glow coming\n"
 	.string "from you as your father.\p"
 	.string "I hope that you'll stage a terrific\n"
@@ -1433,7 +1433,7 @@ PetalburgCity_Gym_Text_BerkePostBattle:
 
 PetalburgCity_Gym_Text_BerkePostBadge:
 	.string "Since your dad became the LEADER,\n"
-	.string "the TRAINERS of Petalburg City have\l"
+	.string "the Trainers of Petalburg City have\l"
 	.string "become a lot tougher.$"
 
 PetalburgCity_Gym_Text_MaryIntro:
@@ -1447,7 +1447,7 @@ PetalburgCity_Gym_Text_MaryDefeat:
 
 PetalburgCity_Gym_Text_MaryPostBattle:
 	.string "There are some even stronger\n"
-	.string "TRAINERS waiting for you.\p"
+	.string "Trainers waiting for you.\p"
 	.string "The left is the Defense ROOM, and\n"
 	.string "the right is the RECOVERY ROOM.\p"
 	.string "Your Pokémon's Attack power will be\n"
@@ -1455,7 +1455,7 @@ PetalburgCity_Gym_Text_MaryPostBattle:
 
 PetalburgCity_Gym_Text_MaryPostBadge:
 	.string "Do you know what we're trying to\n"
-	.string "achieve as TRAINERS?\p"
+	.string "achieve as Trainers?\p"
 	.string "We're striving to become soul mates\n"
 	.string "with our Pokémon.$"
 
@@ -1473,7 +1473,7 @@ PetalburgCity_Gym_Text_AlexiaPostBattle:
 	.string "the STRENGTH ROOM.\p"
 	.string "The right door opens to\n"
 	.string "the ONE-HIT KO ROOM.\p"
-	.string "Both of them have TRAINERS who are\n"
+	.string "Both of them have Trainers who are\n"
 	.string "skilled at offense.$"
 
 PetalburgCity_Gym_Text_AlexiaPostBadge:
@@ -1498,7 +1498,7 @@ PetalburgCity_Gym_Text_JodyPostBadge:
 	.string "Sure, it's fine to make your Pokémon\n"
 	.string "stronger.\p"
 	.string "But what decides the winner?\p"
-	.string "Why, it's the feelings TRAINERS have\n"
+	.string "Why, it's the feelings Trainers have\n"
 	.string "for their Pokémon.$"
 
 PetalburgCity_Gym_Text_DoorAppearsLocked:
@@ -1549,7 +1549,7 @@ PetalburgCity_Gym_Text_GymStatue:
 
 PetalburgCity_Gym_Text_GymStatueCertified:
 	.string "Petalburg City Pokémon GYM\p"
-	.string "Norman'S CERTIFIED TRAINERS:\n"
+	.string "Norman'S CERTIFIED Trainers:\n"
 	.string "{PLAYER}$"
 
 PetalburgCity_Gym_Text_NormanPreRematch:

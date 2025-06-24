@@ -60,6 +60,7 @@ static EWRAM_DATA u8 sSpinStartFacingDir = 0;
 EWRAM_DATA struct ObjectEvent gObjectEvents[OBJECT_EVENTS_COUNT] = {};
 EWRAM_DATA struct PlayerAvatar gPlayerAvatar = {};
 EWRAM_DATA struct SpinData gPlayerSpinData = {};
+EWRAM_DATA bool8 gRunToggleBtnSet = FALSE;
 
 // static declarations
 static u8 ObjectEventCB2_NoMovement2(void);
@@ -829,15 +830,37 @@ static void PlayerNotOnBikeMoving(u8 direction, u16 heldKeys)
         return;
     }
 
-    if (!(gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_UNDERWATER) && (heldKeys & B_BUTTON) && FlagGet(FLAG_SYS_B_DASH)
-     && IsRunningDisallowed(gObjectEvents[gPlayerAvatar.objectEventId].currentMetatileBehavior) == 0 && !FollowerNPCComingThroughDoor())
-    {
-        if (ObjectMovingOnRockStairs(&gObjectEvents[gPlayerAvatar.objectEventId], direction))
-            PlayerRunSlow(direction);
-        else
-            PlayerRun(direction);
-
-        gPlayerAvatar.flags |= PLAYER_AVATAR_FLAG_DASH;
+	if (!(gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_UNDERWATER) && (gRunToggleBtnSet || FlagGet(FLAG_RUNNING_SHOES_TOGGLE) || (heldKeys & B_BUTTON))
+		&& FlagGet(FLAG_SYS_B_DASH) && IsRunningDisallowed(gObjectEvents[gPlayerAvatar.objectEventId].currentMetatileBehavior) == 0 && !FollowerNPCComingThroughDoor())
+	{
+		if (gRunToggleBtnSet)
+		{
+			gRunToggleBtnSet = FALSE;
+			if (FlagGet(FLAG_RUNNING_SHOES_TOGGLE) == FALSE)
+			{
+				FlagSet(FLAG_RUNNING_SHOES_TOGGLE);
+				PlayerRun(direction);
+				gPlayerAvatar.flags |= PLAYER_AVATAR_FLAG_DASH;
+				return;
+			}
+			else
+			{
+				FlagClear(FLAG_RUNNING_SHOES_TOGGLE);
+				gRunToggleBtnSet = FALSE;
+				if (!(heldKeys & B_BUTTON))
+				{
+					PlayerWalkNormal(direction);
+				}
+				else
+				{
+					PlayerRun(direction);
+					gPlayerAvatar.flags |= PLAYER_AVATAR_FLAG_DASH;
+				}
+				return;
+			} 
+		}
+		PlayerRun(direction);
+		gPlayerAvatar.flags |= PLAYER_AVATAR_FLAG_DASH;
         return;
     }
     else if (FlagGet(DN_FLAG_SEARCHING) && (heldKeys & A_BUTTON))
@@ -847,6 +870,7 @@ static void PlayerNotOnBikeMoving(u8 direction, u16 heldKeys)
     }
     else
     {
+        gRunToggleBtnSet = FALSE;
         if (ObjectMovingOnRockStairs(&gObjectEvents[gPlayerAvatar.objectEventId], direction))
             PlayerWalkSlowStairs(direction);
         else
@@ -1176,7 +1200,7 @@ static void UNUSED PlayerWalkSlow(u8 direction)
 {
     PlayerSetAnimId(GetWalkSlowMovementAction(direction), 2);
 }
-static void PlayerRunSlow(u8 direction)
+static void UNUSED PlayerRunSlow(u8 direction)
 {
     PlayerSetAnimId(GetPlayerRunSlowMovementAction(direction), 2);
 }

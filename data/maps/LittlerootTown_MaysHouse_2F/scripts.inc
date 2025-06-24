@@ -315,7 +315,7 @@ RivalsHouse_2F_Text_MayWhoAreYou:
 	.string "… … … … … … … …\p"
 	.string "Oh, you're {PLAYER}{KUN}.\n"
 	.string "So your move was today.\p"
-	.string "Um… I'm MAY.\n"
+	.string "Um… I'm May.\n"
 	.string "Glad to meet you!\p"
 	.string "I…\n"
 	.string "I have this dream of becoming friends\l"
@@ -346,7 +346,7 @@ RivalsHouse_2F_Text_BrendanWhoAreYou:
 	.string "Dad, Prof. Birch, said that our new\n"
 	.string "next-door neighbor is a GYM LEADER's\l"
 	.string "kid, so I assumed you'd be a guy.\p"
-	.string "My name's BRENDAN.\n"
+	.string "My name's Brendan.\n"
 	.string "So, hi, neighbor!\p"
 	.string "Huh? Hey, {PLAYER}, don't you have\n"
 	.string "a Pokémon?\p"
@@ -365,8 +365,8 @@ RivalsHouse_2F_Text_ItsRivalsPokeBall:
 	.string "Better leave it right where it is.$"
 
 RivalsHouse_2F_Text_MayJustCheckingMyPokedex:
-	.string "MAY: {PLAYER}{KUN}!\p"
-	.string "I was just checking my POKéDEX.\p"
+	.string "May: {PLAYER}{KUN}!\p"
+	.string "I was just checking my Pokédex.\p"
 	.string "There's still a lot of Pokémon that\n"
 	.string "I've seen but haven't caught.\p"
 	.string "And there are many others that\n"
@@ -375,22 +375,22 @@ RivalsHouse_2F_Text_MayJustCheckingMyPokedex:
 	.string "some Pokémon next?$"
 
 RivalsHouse_2F_Text_MayWhereShouldIGoNext:
-	.string "MAY: I wonder where I should go catch\n"
+	.string "May: I wonder where I should go catch\n"
 	.string "some Pokémon next?\p"
 	.string "Wouldn't it be funny if we ran into each\n"
 	.string "other, {PLAYER}{KUN}?$"
 
 RivalsHouse_2F_Text_BrendanJustCheckingMyPokedex:
-	.string "BRENDAN: Hey, it's {PLAYER}.\p"
-	.string "I was just checking out my POKéDEX.\p"
+	.string "Brendan: Hey, it's {PLAYER}.\p"
+	.string "I was just checking out my Pokédex.\p"
 	.string "There are still many Pokémon that\n"
 	.string "I need to catch, I know, but this\l"
 	.string "is looking pretty good.\p"
-	.string "Checking this POKéDEX out gives me\n"
+	.string "Checking this Pokédex out gives me\n"
 	.string "the urge to hit the road again.$"
 
 RivalsHouse_2F_Text_BrendanWhereShouldIGoNext:
-	.string "BRENDAN: I'm having a hard time deciding\n"
+	.string "Brendan: I'm having a hard time deciding\n"
 	.string "where I should catch Pokémon next.\p"
 	.string "Hey, {PLAYER}, if I see you while I'm out\n"
 	.string "catching Pokémon, I can pitch you a\l"
