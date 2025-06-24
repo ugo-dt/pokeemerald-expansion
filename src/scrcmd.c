@@ -59,6 +59,7 @@
 #include "malloc.h"
 #include "constants/event_objects.h"
 #include "constants/map_types.h"
+#include "constants/items.h"
 
 typedef u16 (*SpecialFunc)(void);
 typedef void (*NativeFunc)(struct ScriptContext *ctx);
@@ -2294,13 +2295,29 @@ bool8 ScrCmd_checkpartymove(struct ScriptContext *ctx)
     for (i = 0; i < PARTY_SIZE; i++)
     {
         u16 species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES, NULL);
-        if (!species)
+        if (!species || species == SPECIES_EGG)
             break;
-        if (!GetMonData(&gPlayerParty[i], MON_DATA_IS_EGG) && MonKnowsMove(&gPlayerParty[i], move) == TRUE)
+        if (MonKnowsMove(&gPlayerParty[i], move) == TRUE)
         {
             gSpecialVar_Result = i;
             gSpecialVar_0x8004 = species;
             break;
+        }
+    }
+
+    if (gSpecialVar_Result == PARTY_SIZE && (CheckBagHasItem(MoveToHM(move), 1)))
+	{
+        for (i = 0; i < PARTY_SIZE; i++)
+        {
+            u16 species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES, NULL);
+            if (!species)
+				break;
+			if (species != SPECIES_EGG && CanLearnTeachableMove(species, move))
+            {
+                gSpecialVar_Result = i;
+                gSpecialVar_0x8004 = species;
+                break;
+            }
         }
     }
     return FALSE;

@@ -11,6 +11,9 @@
 #define OW_HIDE_REPEAT_MAP_POPUP        FALSE      // If enabled, map popups will not appear if entering a map with the same Map Section Id as the last.
 #define OW_FRLG_WHITEOUT                TRUE       // If enabled, shows an additional whiteout message and post whiteout event script with healing NPC.
 #define OW_DEFOG_FIELD_MOVE             FALSE      // If enabled, Defog can be used as a Field Move as seen in DPPt.
+#define OW_HM_FIELD_MOVE                TRUE       // If enabled, HMs can be used without a Pokémon learning them.
+#define OW_HM_FIELD_MOVE_ANY            TRUE       // Needs OW_HM_FIELD_MOVE enabled. If enabled, any Pokémon can use HMs even if they can't learn it.
+#define OW_HM_FIELD_MOVE_AUTO_FLASH     TRUE       // Needs OW_HM_FIELD_MOVE enabled. If enabled, use Flash automatically when entering a dark cave.
 
 // Item Obtain Description Box
 #define OW_ITEM_DESCRIPTIONS_OFF        0   // never show descriptions
