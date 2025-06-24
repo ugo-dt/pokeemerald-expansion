@@ -20,9 +20,9 @@ SootopolisCity_House3_EventScript_Girl::
 	end
 
 SootopolisCity_House3_Text_JuanHasManyFansDoYou:
-	.string "You're a POKéMON TRAINER, aren't you?\p"
-	.string "SOOTOPOLIS's JUAN has many fans.\n"
-	.string "Even more than his student WALLACE!\p"
+	.string "You're a Pokémon TRAINER, aren't you?\p"
+	.string "SOOTOPOLIS's Juan has many fans.\n"
+	.string "Even more than his student Wallace!\p"
 	.string "Do you have any?$"
 
 SootopolisCity_House3_Text_YouMustBePrettyStrong:

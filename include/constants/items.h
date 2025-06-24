@@ -994,7 +994,7 @@
 
 #define ITEM_STRANGE_BALL 828
 
-// HOPO BERRY
+// HOPO Berry
 // LEGEND PLATE
 
 #define ITEMS_COUNT 829
