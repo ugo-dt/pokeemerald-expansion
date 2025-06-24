@@ -1421,7 +1421,7 @@ SootopolisCity_Text_WhatIsThatGreenPokemon:
 	.string "What is that green Pokémon?!$"
 
 SootopolisCity_Text_WhereDidLegendariesGo:
-	.string "GROUDON and KYOGRE…\n"
+	.string "Groudon and Kyogre…\n"
 	.string "Where did they go?\p"
 	.string "Will they cause droughts or downpours\n"
 	.string "somewhere else?$"
@@ -1519,11 +1519,11 @@ SootopolisCity_Text_CaveOfOriginPleaseLeave:
 SootopolisCity_Text_LeadSuperiorTrainerToCave:
 	.string "A person with a strong will and\n"
 	.string "superior talent…\p"
-	.string "A TRAINER who has knowledge and\n"
+	.string "A Trainer who has knowledge and\n"
 	.string "experience of many kinds of Pokémon…\p"
 	.string "If such a person were to appear, I was\n"
 	.string "instructed by Wallace to lead that\l"
-	.string "TRAINER to this CAVE.$"
+	.string "Trainer to this CAVE.$"
 
 SootopolisCity_Text_AwakenedPokemonClash:
 	.string "Oh, my…\p"
@@ -1579,15 +1579,15 @@ SootopolisCity_Text_YouBroughtFlyingMon:
 	.string "Well, aren't you amazing!$"
 
 SootopolisCity_Text_GroudonPleaseStop:
-	.string "MAXIE: G… GROUDON…\n"
+	.string "Maxie: G… Groudon…\n"
 	.string "Please! Stop what you're doing!\p"
 	.string "I know the extent of your power now!\p"
 	.string "If you keep going, all HOENN, not just\n"
 	.string "SOOTOPOLIS, will be utterly ruined!$"
 
 SootopolisCity_Text_AfterAllOurScheming:
-	.string "MAXIE: So the super-ancient Pokémon\n"
-	.string "weren't only GROUDON and KYOGRE…\p"
+	.string "Maxie: So the super-ancient Pokémon\n"
+	.string "weren't only Groudon and Kyogre…\p"
 	.string "After all our fruitless scheming and\n"
 	.string "frantic efforts, that one Pokémon's\l"
 	.string "simple action puts everything right\l"
@@ -1596,16 +1596,16 @@ SootopolisCity_Text_AfterAllOurScheming:
 	.string "Fuhahaha…$"
 
 SootopolisCity_Text_KyogreCalmDown:
-	.string "ARCHIE: KYOGRE! What's wrong?!\n"
+	.string "Archie: Kyogre! What's wrong?!\n"
 	.string "Look over here! It's the RED ORB!\l"
-	.string "Calm down! KYOGRE!\p"
+	.string "Calm down! Kyogre!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
 	.string "It's no good!\n"
 	.string "It's not responding at all!$"
 
 SootopolisCity_Text_TryingMeaninglessToPokemon:
-	.string "ARCHIE: KYOGRE and GROUDON both\n"
+	.string "Archie: Kyogre and Groudon both\n"
 	.string "flew off to who knows where.\p"
 	.string "The weather in HOENN has returned\n"
 	.string "to its normal state…\p"
@@ -1617,7 +1617,7 @@ SootopolisCity_Text_TryingMeaninglessToPokemon:
 
 SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
 	.string "STEVEN: Those Pokémon fighting…\n"
-	.string "GROUDON… And KYOGRE…\p"
+	.string "Groudon… And Kyogre…\p"
 	.string "The two super-ancient Pokémon\n"
 	.string "were awakened from a long sleep…\p"
 	.string "And now they are smashing each other\n"
@@ -1632,7 +1632,7 @@ SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
 
 SootopolisCity_Text_DoesThisMakeYourFearPokemon:
 	.string "STEVEN: Listen, {PLAYER}{KUN}.\p"
-	.string "Does seeing GROUDON and KYOGRE make\n"
+	.string "Does seeing Groudon and Kyogre make\n"
 	.string "you think Pokémon are to be feared?\p"
 	.string "But that's not true.\n"
 	.string "Pokémon are really more…\p"
@@ -1661,8 +1661,8 @@ SootopolisCity_Text_SoThatsRayquaza:
 	.string "Pokémon would flee from it in fear…$"
 
 SootopolisCity_Text_MaxieArchieLeft:
-	.string "STEVEN: It looks like both MAXIE and\n"
-	.string "ARCHIE have gone away somewhere.\p"
+	.string "STEVEN: It looks like both Maxie and\n"
+	.string "Archie have gone away somewhere.\p"
 	.string "Perhaps they've gone to Mt. Pyre to\n"
 	.string "return those ORBS…$"
 

@@ -287,7 +287,7 @@ Route103_EventScript_Isabelle::
 	end
 
 Route103_Text_MayRoute103Pokemon:
-	.string "MAY: Let's see… The Pokémon found\n"
+	.string "May: Let's see… The Pokémon found\n"
 	.string "on Route 103 include…$"
 
 Route103_Text_MayLetsBattle:
@@ -297,14 +297,14 @@ Route103_Text_MayLetsBattle:
 	.string "Since we're here, let's have a quick\n"
 	.string "battle!\p"
 	.string "I'll give you a taste of what being\n"
-	.string "a TRAINER is like.$"
+	.string "a Trainer is like.$"
 
 Route103_Text_MayDefeated:
 	.string "Wow! That's great!\n"
 	.string "{PLAYER}{KUN}, you're pretty good!$"
 
 Route103_Text_MayTimeToHeadBack:
-	.string "MAY: I think I know why my dad has\n"
+	.string "May: I think I know why my dad has\n"
 	.string "an eye out for you now.\p"
 	.string "I mean, you just got that Pokémon,\n"
 	.string "but it already likes you.\p"
@@ -314,7 +314,7 @@ Route103_Text_MayTimeToHeadBack:
 	.string "the LAB.$"
 
 Route103_Text_BrendanRoute103Pokemon:
-	.string "BRENDAN: Okay, so it's this one and\n"
+	.string "Brendan: Okay, so it's this one and\n"
 	.string "that one that live on Route 103…$"
 
 Route103_Text_BrendanLetsBattle:
@@ -322,14 +322,14 @@ Route103_Text_BrendanLetsBattle:
 	.string "…Oh, yeah, Dad gave you a Pokémon.\p"
 	.string "Since we're here, how about a little\n"
 	.string "battle?\p"
-	.string "I'll teach you what being a TRAINER's\n"
+	.string "I'll teach you what being a Trainer's\n"
 	.string "about!$"
 
 Route103_Text_BrendanDefeated:
 	.string "Huh, {PLAYER}, you're not too shabby.$"
 
 Route103_Text_BrendanTimeToHeadBack:
-	.string "BRENDAN: I think I get it.\n"
+	.string "Brendan: I think I get it.\n"
 	.string "I think I know why my dad has his eye\l"
 	.string "out for you now.\p"
 	.string "Look, your Pokémon already likes you,\n"

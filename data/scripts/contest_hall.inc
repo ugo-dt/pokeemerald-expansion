@@ -1392,7 +1392,7 @@ LilycoveCity_ContestLobby_Text_WhichTopic1:
 
 LilycoveCity_ContestLobby_Text_ExplainContests:
 	.string "A Pokémon CONTEST involves four\n"
-	.string "TRAINERS entering one Pokémon each\l"
+	.string "Trainers entering one Pokémon each\l"
 	.string "in competitive judging.\p"
 	.string "A CONTEST has two stages of judging,\n"
 	.string "primary and secondary.\p"
@@ -1432,7 +1432,7 @@ LilycoveCity_ContestLobby_Text_ExplainContestRanks:
 	.string "the MASTER Rank in the same category.\p"
 	.string "A Pokémon that won in the MASTER Rank\n"
 	.string "may compete in the MASTER Rank as\l"
-	.string "often as its TRAINER wants.$"
+	.string "often as its Trainer wants.$"
 
 LilycoveCity_ContestLobby_Text_EnterWhichRank:
 	.string "Which Rank would you like to enter?$"
@@ -1490,14 +1490,14 @@ ContestHall_Text_GettingStartedParticipantsAsFollows:
 	.string "MC: Hello! We're just getting started\n"
 	.string "with a {STR_VAR_3} Rank Pokémon\l"
 	.string "{STR_VAR_2}!\p"
-	.string "The participating TRAINERS and their\n"
+	.string "The participating Trainers and their\n"
 	.string "Pokémon are as follows:$"
 
 ContestHall_Text_GettingStartedParticipantsAsFollowsLink:
 	.string "MC: Hello! We're just getting started\n"
 	.string "with a 4-player linked Pokémon\l"
 	.string "{STR_VAR_2}!\p"
-	.string "The participating TRAINERS and their\n"
+	.string "The participating Trainers and their\n"
 	.string "Pokémon are as follows:$"
 
 ContestHall_Text_EntryXTrainersMon:
@@ -1721,7 +1721,7 @@ LilycoveCity_ContestLobby_Text_ExplainEMode:
 	.string "other using Wireless Adapters or\l"
 	.string "GBA Game Link cables.\p"
 	.string "If there are fewer than four players,\n"
-	.string "TRAINERS in the hall will join to fill\l"
+	.string "Trainers in the hall will join to fill\l"
 	.string "the 4-player CONTEST lineup.\p"
 	.string "Please be aware that E-MODE is not\n"
 	.string "available in Pokémon Ruby or Sapphire.$"
@@ -1754,7 +1754,7 @@ ContestHall_Text_GettingStartedWireless:
 	.string "{STR_VAR_2}!$"
 
 ContestHall_Text_ParticipantsAsFollows:
-	.string "The participating TRAINERS and their\n"
+	.string "The participating Trainers and their\n"
 	.string "Pokémon are as follows:$"
 
 ContestHall_Text_WeveSeenContestants:

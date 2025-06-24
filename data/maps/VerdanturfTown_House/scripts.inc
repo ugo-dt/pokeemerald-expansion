@@ -12,7 +12,7 @@ VerdanturfTown_House_EventScript_Woman2::
 VerdanturfTown_House_Text_TrainersGatherAtPokemonLeague:
 	.string "Far away, deep in Ever Grande City,\n"
 	.string "is the Pokémon LEAGUE.\p"
-	.string "The TRAINERS who gather there are\n"
+	.string "The Trainers who gather there are\n"
 	.string "all frighteningly well skilled.$"
 
 VerdanturfTown_House_Text_DefeatEliteFourInARow:

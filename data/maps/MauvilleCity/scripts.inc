@@ -522,10 +522,10 @@ MauvilleCity_Text_WallyIllGoBackToVerdanturf:
 
 MauvilleCity_Text_ThankYouNotEnoughToBattle:
 	.string "{PLAYER}, thank you.\n"
-	.string "Being a TRAINER is tough, isn't it?\p"
+	.string "Being a Trainer is tough, isn't it?\p"
 	.string "It's not enough just to have Pokémon\n"
 	.string "and make them battle. That isn't what\l"
-	.string "being a real TRAINER is about.$"
+	.string "being a real Trainer is about.$"
 
 MauvilleCity_Text_UncleNoNeedToBeDown:
 	.string "UNCLE: WALLY, there's no need to be so\n"
@@ -537,7 +537,7 @@ MauvilleCity_Text_UncleNoNeedToBeDown:
 
 MauvilleCity_Text_UncleVisitUsSometime:
 	.string "UNCLE: {PLAYER}{KUN}, it just dawned on me\n"
-	.string "that you must be the TRAINER who kept\l"
+	.string "that you must be the Trainer who kept\l"
 	.string "an eye out for WALLY when he caught\l"
 	.string "his Pokémon.\p"
 	.string "Why don't you visit us in VERDANTURF\n"
@@ -550,7 +550,7 @@ MauvilleCity_Text_WallyPokenavCall:
 	.string "… … … … … Beep!\p"
 	.string "WALLY: Oh, hello, {PLAYER}!\p"
 	.string "I just wanted to tell you that\n"
-	.string "my uncle bought me a POKéNAV!\p"
+	.string "my uncle bought me a PokéNav!\p"
 	.string "Now I can get in touch with you\n"
 	.string "anytime, {PLAYER}!\p"
 	.string "… … … … … …\n"
@@ -558,7 +558,7 @@ MauvilleCity_Text_WallyPokenavCall:
 
 MauvilleCity_Text_RegisteredWally:
 	.string "Registered WALLY\n"
-	.string "in the POKéNAV.$"
+	.string "in the PokéNav.$"
 
 MauvilleCity_Text_ScottYouDidntHoldBack:
 	.string "SCOTT: Hehe…\n"
@@ -569,7 +569,7 @@ MauvilleCity_Text_ScottYouDidntHoldBack:
 	.string "and beat him impressively.\p"
 	.string "Yeah! That's what a real Pokémon\n"
 	.string "battle is all about!\p"
-	.string "I idolize TRAINERS like that!\p"
+	.string "I idolize Trainers like that!\p"
 	.string "… … … … … …\n"
 	.string "I'll be cheering for you!$"
 

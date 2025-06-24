@@ -78,7 +78,7 @@ FallarborTown_Text_HaveYouChallengedFlannery:
 	.string "He was one of the ELITE FOUR in the\l"
 	.string "Pokémon LEAGUE at one point.\p"
 	.string "It wouldn't surprise me to see Flannery\n"
-	.string "become a great TRAINER in her own\l"
+	.string "become a great Trainer in her own\l"
 	.string "right.$"
 
 FallarborTown_Text_BattleTentSign:
@@ -90,6 +90,6 @@ FallarborTown_Text_TownSign:
 	.string "“A farm community with small gardens.”$"
 
 FallarborTown_Text_MoveTutorSign:
-	.string "MOVE TUTOR'S HOUSE\n"
+	.string "Move Tutor's House\n"
 	.string "“New moves taught to Pokémon.”$"
 

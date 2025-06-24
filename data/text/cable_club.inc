@@ -13,7 +13,7 @@ CableClub_Text_TradeUsingLinkCable::
 	.string "using a GBA Game Link cable.$"
 
 CableClub_Text_BattleUsingLinkCable::
-	.string "You may battle another TRAINER\n"
+	.string "You may battle another Trainer\n"
 	.string "using a GBA Game Link cable.$"
 
 CableClub_Text_RecordCornerUsingLinkCable::
@@ -111,16 +111,16 @@ Text_TerminateLinkPleaseWait:
 	.string "the room. Please wait.$"
 
 CableClub_Text_TooBusyToNotice:
-	.string "This TRAINER is too busy to\n"
+	.string "This Trainer is too busy to\n"
 	.string "notice…$"
 
 CableClub_Text_GotToLookAtTrainerCard:
 	.string "Score! Got to look at {STR_VAR_1}'s\n"
-	.string "TRAINER CARD!$"
+	.string "Trainer CARD!$"
 
 CableClub_Text_GotToLookAtColoredTrainerCard:
 	.string "Score! Got to look at {STR_VAR_1}'s\n"
-	.string "TRAINER CARD!\p"
+	.string "Trainer CARD!\p"
 	.string "It's a {STR_VAR_2} card!$"
 
 BattleColosseum_2P_Text_TakePlaceStartBattle:
@@ -135,7 +135,7 @@ RecordCorner_Text_ThanksForComing:
 	.string "Thanks for coming.$"
 
 CableClub_Text_TrainerCardDataOverwritten:
-	.string "The TRAINER CARD data will\n"
+	.string "The Trainer CARD data will\n"
 	.string "be overwritten.$"
 
 CableClub_Text_HopeToSeeYouAgain:
@@ -144,11 +144,11 @@ CableClub_Text_HopeToSeeYouAgain:
 CableClub_Text_NotSetUpForFarAwayRegion:
 	.string "I'm awfully sorry.\p"
 	.string "We're not set up to conduct trades\n"
-	.string "with TRAINERS far away in another\l"
+	.string "with Trainers far away in another\l"
 	.string "region yet…$"
 
 CableClub_Text_OtherTrainerNotReady:
-	.string "The other TRAINER is not ready.$"
+	.string "The other Trainer is not ready.$"
 
 CableClub_Text_YouHaveAMonThatCantBeTaken:
 	.string "You have at least one Pokémon\n"
@@ -187,14 +187,14 @@ CableClub_Text_PleaseWait:
 
 CableClub_Text_YouMayTradeHere::
 	.string "You may trade your Pokémon here\n"
-	.string "with another TRAINER.$"
+	.string "with another Trainer.$"
 
 CableClub_Text_YouMayBattleHere::
 	.string "You may battle with your friends\n"
 	.string "here.$"
 
 CableClub_Text_CanMakeBerryPowder::
-	.string "Two to five TRAINERS can make\n"
+	.string "Two to five Trainers can make\n"
 	.string "Berry POWDER together.$"
 
 CableClub_Text_CanMixRecords::
@@ -356,17 +356,17 @@ CableClub_Text_UseBerryCrush:
 
 CableClub_Text_ExplainBattleModes:
 	.string "There are three Battle Modes.\p"
-	.string "SINGLE BATTLE is for two TRAINERS\n"
+	.string "SINGLE BATTLE is for two Trainers\n"
 	.string "with one or more Pokémon each.\p"
-	.string "Each TRAINER can have one Pokémon\n"
+	.string "Each Trainer can have one Pokémon\n"
 	.string "in battle at a time.\p"
-	.string "DOUBLE BATTLE is for two TRAINERS\n"
+	.string "DOUBLE BATTLE is for two Trainers\n"
 	.string "with two or more Pokémon each.\p"
-	.string "Each TRAINER will send out two\n"
+	.string "Each Trainer will send out two\n"
 	.string "Pokémon in battle at a time.\p"
-	.string "MULTI BATTLE is for four TRAINERS\n"
+	.string "MULTI BATTLE is for four Trainers\n"
 	.string "with one or more Pokémon each.\p"
-	.string "Each TRAINER can have one Pokémon\n"
+	.string "Each Trainer can have one Pokémon\n"
 	.string "in battle at a time.$"
 
 CableClub_Text_ChooseGroupLeaderOfTwo:
@@ -391,12 +391,12 @@ CableClub_Text_WelcomeUnionRoomEnter:
 	.string "Welcome to the Pokémon WIRELESS\n"
 	.string "CLUB UNION ROOM.\p"
 	.string "You may interact directly with\n"
-	.string "other TRAINERS here, some of\l"
+	.string "other Trainers here, some of\l"
 	.string "whom you may not even know.\p"
 	.string "Would you like to enter the ROOM?$"
 
 CableClub_Text_UnionRoomInfo:
-	.string "The TRAINERS in the UNION ROOM\n"
+	.string "The Trainers in the UNION ROOM\n"
 	.string "will be those players around you\l"
 	.string "who have also entered the ROOM.\p"
 	.string "You may do all sorts of things\n"
@@ -421,7 +421,7 @@ CableClub_Text_FirstTimeRightThisWay:
 	.string "I'll show you how the Wireless\n"
 	.string "Communication System works.\p"
 	.string "First, I need to show you this\n"
-	.string "floor of our Pokémon CENTER.\p"
+	.string "floor of our Pokémon Center.\p"
 	.string "Right this way, please.$"
 
 CableClub_Text_ExplainWirelessClubFirstTime:
@@ -429,7 +429,7 @@ CableClub_Text_ExplainWirelessClubFirstTime:
 	.string "rooms.\p"
 	.string "First, the room on the left.\n"
 	.string "It's the UNION ROOM.\p"
-	.string "You may link up with TRAINERS\n"
+	.string "You may link up with Trainers\n"
 	.string "around you who have also entered\l"
 	.string "the UNION ROOM.\p"
 	.string "With them, you may do things like\n"
@@ -460,7 +460,7 @@ CableClub_Text_ExplainWirelessClub:
 	.string "two rooms.\p"
 	.string "First, the room on the left.\n"
 	.string "It's the UNION ROOM.\p"
-	.string "You may link up with TRAINERS\n"
+	.string "You may link up with Trainers\n"
 	.string "around you who have also entered\l"
 	.string "the UNION ROOM.\p"
 	.string "With them, you may do things like\n"

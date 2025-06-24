@@ -190,7 +190,7 @@ SootopolisCity_Gym_1F_Text_GymGuideAdvice:
 SootopolisCity_Gym_1F_Text_GymGuidePostVictory:
 	.string "Yow! You've beaten even Juan, who\n"
 	.string "was supposedly the best in all HOENN!\p"
-	.string "Okay! Check out your TRAINER CARD.\p"
+	.string "Okay! Check out your Trainer CARD.\p"
 	.string "If you've gotten all the BADGES, you're\n"
 	.string "set for the Pokémon LEAGUE challenge!$"
 
@@ -255,10 +255,10 @@ SootopolisCity_Gym_1F_Text_ExplainWaterPulse:
 
 SootopolisCity_Gym_1F_Text_RegisteredJuan:
 	.string "Registered GYM LEADER Juan\n"
-	.string "in the POKéNAV.$"
+	.string "in the PokéNav.$"
 
 SootopolisCity_Gym_1F_Text_JuanPostBattle:
-	.string "The TRAINERS who have gathered all\n"
+	.string "The Trainers who have gathered all\n"
 	.string "the GYM BADGES of HOENN should make\l"
 	.string "way to the ultimate destination.\p"
 	.string "The Pokémon LEAGUE.\p"
@@ -279,7 +279,7 @@ SootopolisCity_Gym_1F_Text_GymStatue:
 
 SootopolisCity_Gym_1F_Text_GymStatueCertified:
 	.string "Sootopolis City Pokémon GYM\p"
-	.string "Juan'S CERTIFIED TRAINERS:\n"
+	.string "Juan'S CERTIFIED Trainers:\n"
 	.string "{PLAYER}$"
 
 SootopolisCity_Gym_1F_Text_JuanPreRematch:

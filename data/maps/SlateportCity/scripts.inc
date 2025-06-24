@@ -1095,7 +1095,7 @@ SlateportCity_Text_GetNameRaterToHelpYou:
 SlateportCity_Text_CantChangeTradeMonName:
 	.string "Any Pokémon you get in a trade,\n"
 	.string "you can't change its nickname.\p"
-	.string "The original TRAINER's love for that\n"
+	.string "The original Trainer's love for that\n"
 	.string "Pokémon is in the nickname.$"
 
 SlateportCity_Text_BattleTentBuiltRecently:
@@ -1269,7 +1269,7 @@ SlateportCity_Text_ExplainBerries:
 
 SlateportCity_Text_ExplainBerryPowder:
 	.string "I recently had machines installed at\n"
-	.string "Pokémon CENTERS for crushing Berries.\p"
+	.string "Pokémon CenterS for crushing Berries.\p"
 	.string "The Berry CRUSH machines are at\n"
 	.string "the DIRECT CORNER upstairs.\p"
 	.string "Did you know?\p"
@@ -1321,18 +1321,18 @@ SlateportCity_Text_YouDroveTeamAquaAway:
 
 SlateportCity_Text_MaybeThisTrainer:
 	.string "SCOTT: Hmm…\n"
-	.string "Maybe, just maybe, this TRAINER…$"
+	.string "Maybe, just maybe, this Trainer…$"
 
 SlateportCity_Text_LetsRegisterEachOther:
 	.string "SCOTT: All right! I think you're going\n"
 	.string "to become a good friend.\p"
 	.string "So, let's register each other in our\n"
-	.string "POKéNAVS.\p"
+	.string "PokéNavS.\p"
 	.string "… … … … … …$"
 
 SlateportCity_Text_RegisteredScott:
 	.string "Registered this SCOTT person\n"
-	.string "in the POKéNAV.$"
+	.string "in the PokéNav.$"
 
 SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou:
 	.string "SCOTT: What I'd like to do is tag along\n"
@@ -1349,6 +1349,6 @@ SlateportCity_Text_TakingBattleTentChallenge:
 	.string "to take the BATTLE TENT challenge?\p"
 	.string "Yeah! That's a good idea!\n"
 	.string "That's a really great idea!\p"
-	.string "After all, a tough TRAINER is\n"
+	.string "After all, a tough Trainer is\n"
 	.string "the perfect fit for the BATTLE TENT!\p"
 	.string "Give it your best effort!$"

@@ -320,7 +320,7 @@ SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
 	.string "We are Team Aqua,\n"
 	.string "and we love the sea!\p"
 	.string "And I am Team Aqua's leader,\n"
-	.string "ARCHIE!\p"
+	.string "Archie!\p"
 	.string "What makes you interfere with us?\p"
 	.string "…No! You can't be!\n"
 	.string "You're not one of TEAM MAGMA?\p"

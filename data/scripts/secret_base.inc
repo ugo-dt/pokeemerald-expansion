@@ -704,7 +704,7 @@ SecretBase_Text_WhatWouldYouLikeToDo:
 
 SecretBase_Text_RegistryInfo:
 	.string "Once registered, a Secret Base will not\n"
-	.string "disappear unless the other TRAINER\l"
+	.string "disappear unless the other Trainer\l"
 	.string "moves it to a different location.\p"
 	.string "If a Secret Base is deleted from the\n"
 	.string "registered list, another one may take\l"

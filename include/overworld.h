@@ -61,6 +61,7 @@ extern bool8 gExitStairsMovementDisabled;
 extern bool8 gSkipShowMonAnim;
 extern u8 gTimeOfDay;
 extern s16 gTimeUpdateCounter;
+extern bool8 gSysPcFromPokenav;
 
 extern struct TimeBlendSettings gTimeBlend;
 

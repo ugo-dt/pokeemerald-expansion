@@ -107,11 +107,11 @@ RustboroCity_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going?\p"
 	.string "Listen, my friend!\n"
 	.string "Would you like to become the CHAMPION?\p"
-	.string "I'm no TRAINER, not me, but I can\n"
+	.string "I'm no Trainer, not me, but I can\n"
 	.string "sure give you winning advice.\p"
 	.string "That's settled, then! We'll aim for the\n"
 	.string "Pokémon CHAMPIONSHIP together!\p"
-	.string "It's your job as a TRAINER to collect\n"
+	.string "It's your job as a Trainer to collect\n"
 	.string "GYM BADGES, am I right?\p"
 	.string "But GYM LEADERS aren't pushovers!\p"
 	.string "And that's where I come in!\n"
@@ -129,7 +129,7 @@ RustboroCity_Gym_Text_GymGuidePostVictory:
 	.string "Whoa! What a breathtaking victory!\n"
 	.string "My cheering must've worked!\p"
 	.string "Great!\n"
-	.string "Check your TRAINER CARD.\p"
+	.string "Check your Trainer CARD.\p"
 	.string "The STONE BADGE you got should be\n"
 	.string "properly recorded on it.\p"
 	.string "In other words…\p"
@@ -138,7 +138,7 @@ RustboroCity_Gym_Text_GymGuidePostVictory:
 	.string "That's got to feel awesome!$"
 
 RustboroCity_Gym_Text_JoshIntro:
-	.string "Don't take us GYM TRAINERS lightly!\n"
+	.string "Don't take us GYM Trainers lightly!\n"
 	.string "I'll show you why we're better!$"
 
 RustboroCity_Gym_Text_JoshDefeat:
@@ -180,7 +180,7 @@ RustboroCity_Gym_Text_RoxanneIntro:
 	.string "Pokémon GYM LEADER.\p"
 	.string "I became a GYM LEADER so that I might\n"
 	.string "apply what I learned at the Pokémon\l"
-	.string "TRAINER'S SCHOOL in battle.\p"
+	.string "Trainer'S SCHOOL in battle.\p"
 	.string "Would you kindly demonstrate how you\n"
 	.string "battle, and with which Pokémon?$"
 
@@ -191,7 +191,7 @@ RustboroCity_Gym_Text_RoxanneDefeat:
 	.string "to learn…\p"
 	.string "I understand.\p"
 	.string "The Pokémon LEAGUE's rules state\n"
-	.string "that TRAINERS are to be given this\l"
+	.string "that Trainers are to be given this\l"
 	.string "if they defeat a GYM LEADER.\p"
 	.string "Please accept the official Pokémon\n"
 	.string "LEAGUE STONE BADGE.$"
@@ -220,7 +220,7 @@ RustboroCity_Gym_Text_ExplainRockTomb:
 RustboroCity_Gym_Text_RoxannePostBattle:
 	.string "Since you are so strong, you should\n"
 	.string "challenge other GYM LEADERS.\p"
-	.string "By battling many TRAINERS, you should\n"
+	.string "By battling many Trainers, you should\n"
 	.string "learn many things.$"
 
 RustboroCity_Gym_Text_GymStatue:
@@ -228,7 +228,7 @@ RustboroCity_Gym_Text_GymStatue:
 
 RustboroCity_Gym_Text_GymStatueCertified:
 	.string "Rustboro City Pokémon GYM\p"
-	.string "Roxanne'S CERTIFIED TRAINERS:\n"
+	.string "Roxanne'S CERTIFIED Trainers:\n"
 	.string "{PLAYER}$"
 
 RustboroCity_Gym_Text_RoxanneRegisterCall:
@@ -238,7 +238,7 @@ RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "This is Roxanne of Rustboro City.\p"
 	.string "I heard from Brawly that you're\n"
 	.string "moving up through the ranks of\l"
-	.string "TRAINERS at an incredible clip.\p"
+	.string "Trainers at an incredible clip.\p"
 	.string "Well, I'd rather not think that\n"
 	.string "I can't beat you.\p"
 	.string "I promise, I will shape up my GYM\n"
@@ -250,7 +250,7 @@ RustboroCity_Gym_Text_RoxanneRegisterCall:
 
 RustboroCity_Gym_Text_RegisteredRoxanne:
 	.string "Registered GYM LEADER Roxanne\n"
-	.string "in the POKéNAV.$"
+	.string "in the PokéNav.$"
 
 RustboroCity_Gym_Text_RoxannePreRematch:
 	.string "Roxanne: I'm so glad to see you again.\n"

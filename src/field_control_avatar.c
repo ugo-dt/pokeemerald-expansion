@@ -145,6 +145,32 @@ void FieldGetPlayerInput(struct FieldInput *input, u16 newKeys, u16 heldKeys)
         input->dpadDirection = DIR_WEST;
     else if (heldKeys & DPAD_RIGHT)
         input->dpadDirection = DIR_EAST;
+	
+	if ((newKeys & B_BUTTON) && (!ArePlayerFieldControlsLocked())
+		&& (gPlayerAvatar.flags & (PLAYER_AVATAR_FLAG_DASH | PLAYER_AVATAR_FLAG_ON_FOOT)))
+	{
+		PlaySE(SE_SELECT);
+	    gRunToggleBtnSet = TRUE;
+	}
+
+	if ((newKeys & R_BUTTON) && (!ArePlayerFieldControlsLocked())
+		&& (gPlayerAvatar.flags & (PLAYER_AVATAR_FLAG_MACH_BIKE | PLAYER_AVATAR_FLAG_ACRO_BIKE)))
+    {
+        if (gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_MACH_BIKE)
+        {
+        	PlaySE(SE_BIKE_HOP);
+            gPlayerAvatar.flags -= PLAYER_AVATAR_FLAG_MACH_BIKE;
+            gPlayerAvatar.flags += PLAYER_AVATAR_FLAG_ACRO_BIKE;
+            // SetPlayerAvatarTransitionFlags(PLAYER_AVATAR_FLAG_ACRO_BIKE);
+        }
+        else
+        {
+        	PlaySE(SE_BIKE_BELL);
+            gPlayerAvatar.flags -= PLAYER_AVATAR_FLAG_ACRO_BIKE;
+            gPlayerAvatar.flags += PLAYER_AVATAR_FLAG_MACH_BIKE;
+            // SetPlayerAvatarTransitionFlags(PLAYER_AVATAR_FLAG_MACH_BIKE);
+        }
+    }
 
     if(DEBUG_OVERWORLD_MENU && !DEBUG_OVERWORLD_IN_MENU)
     {
