@@ -542,14 +542,14 @@ static const u8 *const sPartnerTextsRuinManiac[] =
     PARTNER_TEXTS(RuinManiac)
 };
 
-static const u8 *const sPartnerTextsCoolTrainerM[] =
+static const u8 *const sPartnerTextsCooltrainerM[] =
 {
-    PARTNER_TEXTS(CoolTrainerM)
+    PARTNER_TEXTS(CooltrainerM)
 };
 
-static const u8 *const sPartnerTextsCoolTrainerF[] =
+static const u8 *const sPartnerTextsCooltrainerF[] =
 {
-    PARTNER_TEXTS(CoolTrainerF)
+    PARTNER_TEXTS(CooltrainerF)
 };
 
 static const u8 *const sPartnerTextsPokemaniac[] =
@@ -658,8 +658,8 @@ struct
     {FACILITY_CLASS_PKMN_RANGER_F,         sPartnerTextsPkmnRangerF},
     {FACILITY_CLASS_AROMA_LADY,            sPartnerTextsAromaLady},
     {FACILITY_CLASS_RUIN_MANIAC,           sPartnerTextsRuinManiac},
-    {FACILITY_CLASS_COOLTRAINER_M,         sPartnerTextsCoolTrainerM},
-    {FACILITY_CLASS_COOLTRAINER_F,         sPartnerTextsCoolTrainerF},
+    {FACILITY_CLASS_COOLTRAINER_M,         sPartnerTextsCooltrainerM},
+    {FACILITY_CLASS_COOLTRAINER_F,         sPartnerTextsCooltrainerF},
     {FACILITY_CLASS_POKEMANIAC,            sPartnerTextsPokemaniac},
     {FACILITY_CLASS_KINDLER,               sPartnerTextsKindler},
     {FACILITY_CLASS_CAMPER,                sPartnerTextsCamper},
