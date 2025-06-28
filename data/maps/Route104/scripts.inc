@@ -1128,7 +1128,7 @@ Route104_Text_BrendanWeShouldRegister:
 	.string "Cool, you had DEVON install the MATCH\n"
 	.string "CALL system on your PokéNav!\p"
 	.string "Let's register each other in our\n"
-	.string "PokéNavS so we can keep in touch.$"
+	.string "PokéNavs so we can keep in touch.$"
 
 Route104_Text_RegisteredBrendan:
 	.string "{PLAYER} registered Brendan\n"

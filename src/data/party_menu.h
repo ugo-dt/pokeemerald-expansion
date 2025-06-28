@@ -29,8 +29,6 @@ static const struct BgTemplate sPartyMenuBgTemplates[] =
     },
 };
 
-<<<<<<< HEAD
-=======
 enum
 {
     PARTY_BOX_LEFT_COLUMN,
@@ -38,7 +36,6 @@ enum
     PARTY_BOX_EQUAL_COLUMN //Custom party menu
 };
 
->>>>>>> 9227bc08a5 (First implementation of custom party menu, know bug: healing via potion breaks the / between hp/hpmax)
 static const struct PartyMenuBoxInfoRects sPartyBoxInfoRects[] =
 {
     [PARTY_BOX_LEFT_COLUMN] =

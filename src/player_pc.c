@@ -181,7 +181,7 @@ static EWRAM_DATA u8 sTopMenuNumOptions = 0;
 EWRAM_DATA struct PlayerPCItemPageStruct gPlayerPCItemPageInfo = {};
 static EWRAM_DATA struct ItemStorageMenu *sItemStorageMenu = NULL;
 
-static const u8 sText_WithdrawItem[] = _("Withdraw Iteù");
+static const u8 sText_WithdrawItem[] = _("Withdraw Item");
 static const u8 sText_DepositItem[] = _("Deposit Item");
 static const u8 sText_TossItem[] = _("Toss Item");
 static const u8 sText_Mailbox[] = _("Mailbox");
