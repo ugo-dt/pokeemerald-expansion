@@ -600,8 +600,8 @@ static const struct MenuAction MultichoiceList_UnusedSSTidal4[] =
 
 static const struct MenuAction MultichoiceList_Fossil[] =
 {
-    {COMPOUND_STRING("CLAW FOSSIL")},
-    {COMPOUND_STRING("ROOT FOSSIL")},
+    {COMPOUND_STRING("Claw Fossil")},
+    {COMPOUND_STRING("Root Fossil")},
     {gText_Exit},
 };
 
@@ -617,7 +617,7 @@ static const struct MenuAction MultichoiceList_FrontierRules[] =
     {COMPOUND_STRING("LV. 50")},
     {COMPOUND_STRING("OPEN LEVEL")},
     {COMPOUND_STRING("{PKMN} TYPE & NO.")},
-    {COMPOUND_STRING("HOLD ITEMS")},
+    {COMPOUND_STRING("Hold Items")},
     {gText_Exit},
 };
 
@@ -687,7 +687,7 @@ static const struct MenuAction MultichoiceList_BattlePyramidRules[] =
 static const struct MenuAction MultichoiceList_BattlePikeRules[] =
 {
     {COMPOUND_STRING("PokéNav AND Bag")},
-    {COMPOUND_STRING("HELD ITEMS")},
+    {COMPOUND_STRING("HELD Items")},
     {COMPOUND_STRING("Pokémon ORDER")},
     {gText_Exit},
 };

@@ -1,6 +1,6 @@
 CableClub_Text_WelcomeWhichCableClubService:
-	.string "Welcome to the Pokémon CABLE\n"
-	.string "CLUB.\p"
+	.string "Welcome to the Pokémon Cable\n"
+	.string "Club.\p"
 	.string "Which of our services do you wish\n"
 	.string "to use?$"
 
@@ -17,7 +17,7 @@ CableClub_Text_BattleUsingLinkCable::
 	.string "using a GBA Game Link cable.$"
 
 CableClub_Text_RecordCornerUsingLinkCable::
-	.string "You can use the RECORD CORNER with\n"
+	.string "You can use the Record Corner with\n"
 	.string "others using a GBA Game Link cable.$"
 
 @ Unused
@@ -332,8 +332,8 @@ MossdeepCity_GameCorner_1F_Text_RetryPlease:
 	.string "again, please?$"
 
 CableClub_Text_WelcomeWhichDirectCornerRoom:
-	.string "Welcome to the Pokémon WIRELESS\n"
-	.string "CLUB DIRECT CORNER.\p"
+	.string "Welcome to the Pokémon Wireless\n"
+	.string "Club Direct Corner.\p"
 	.string "You may interact directly with\n"
 	.string "your friends here.\p"
 	.string "Which room would you like to\n"
@@ -388,8 +388,8 @@ CableClub_Text_ChooseGroupLeader:
 	.string "“JOIN GROUP.”$"
 
 CableClub_Text_WelcomeUnionRoomEnter:
-	.string "Welcome to the Pokémon WIRELESS\n"
-	.string "CLUB UNION ROOM.\p"
+	.string "Welcome to the Pokémon Wireless\n"
+	.string "Club Union Room.\p"
 	.string "You may interact directly with\n"
 	.string "other Trainers here, some of\l"
 	.string "whom you may not even know.\p"

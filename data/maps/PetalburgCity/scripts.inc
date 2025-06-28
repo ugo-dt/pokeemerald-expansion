@@ -729,7 +729,7 @@ PetalburgCity_Text_FullPartyExplanation:
 	.string "Let's say you have six Pokémon.\n"
 	.string "If you catch another one…\p"
 	.string "It is automatically sent to a STORAGE\n"
-	.string "BOX over a PC connection.$"
+	.string "Box over a PC connection.$"
 
 PetalburgCity_Text_GymSign:
 	.string "Petalburg City Pokémon GYM\n"
@@ -741,7 +741,7 @@ PetalburgCity_Text_CitySign:
 	.string "“Where people mingle with nature.”$"
 
 PetalburgCity_Text_WallyHouseSign:
-	.string "WALLY'S HOUSE$"
+	.string "WALLY's House$"
 
 PetalburgCity_Text_AreYouATrainer:
 	.string "Excuse me!\p"
