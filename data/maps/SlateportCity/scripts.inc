@@ -1210,11 +1210,11 @@ SlateportCity_Text_SternsShipyardNearsCompletion:
 	.string "STERN'S SHIPYARD\p"
 	.string "“The ferry S.S. TIDAL nears\n"
 	.string "completion for serving the ports of\l"
-	.string "SLATEPORT and LILYCOVE.”$"
+	.string "SLATEPORT and Lilycove.”$"
 
 SlateportCity_Text_SternsShipyardFerryComplete:
 	.string "STERN'S SHIPYARD\p"
-	.string "“Boarding of the SLATEPORT-LILYCOVE\n"
+	.string "“Boarding of the SLATEPORT-Lilycove\n"
 	.string "ferry S.S. TIDAL is handled at the\l"
 	.string "HARBOR.”$"
 
@@ -1249,7 +1249,7 @@ SlateportCity_Text_HarborSign:
 	.string "the ferry S.S. TIDAL.”$"
 
 SlateportCity_Text_NameRatersHouseSign:
-	.string "NAME RATER'S HOUSE\n"
+	.string "NAME RATER's House\n"
 	.string "“Pokémon nicknames rated.”$"
 
 SlateportCity_Text_ExplainBerries:
@@ -1327,7 +1327,7 @@ SlateportCity_Text_LetsRegisterEachOther:
 	.string "SCOTT: All right! I think you're going\n"
 	.string "to become a good friend.\p"
 	.string "So, let's register each other in our\n"
-	.string "PokéNavS.\p"
+	.string "PokéNavs.\p"
 	.string "… … … … … …$"
 
 SlateportCity_Text_RegisteredScott:

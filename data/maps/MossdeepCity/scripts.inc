@@ -342,7 +342,7 @@ MossdeepCity_Text_SpaceCenterLaunchingRockets:
 
 MossdeepCity_Text_MossdeepTargetedByMagma:
 	.string "I heard from a SAILOR buddy that\n"
-	.string "Team Aqua set up shop in LILYCOVE.\p"
+	.string "Team Aqua set up shop in Lilycove.\p"
 	.string "I also heard that someone came along\n"
 	.string "and wiped the floor with them!\p"
 	.string "But MOSSDEEP here's been targeted\n"

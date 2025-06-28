@@ -154,7 +154,7 @@ Route121_SafariZoneEntrance_Text_PleaseEnjoyYourself:
 
 Route121_SafariZoneEntrance_Text_PCIsFull:
 	.string "Excuse me!\n"
-	.string "Your PC BOX is full.$"
+	.string "Your PC Box is full.$"
 
 Route121_SafariZoneEntrance_Text_YouNeedPokeblockCase:
 	.string "Excuse me!\n"
@@ -163,7 +163,7 @@ Route121_SafariZoneEntrance_Text_YouNeedPokeblockCase:
 	.string "fruitful if you use {POKEBLOCK}S.\p"
 	.string "Please come back with a {POKEBLOCK} CASE.\p"
 	.string "You may obtain a {POKEBLOCK} CASE from\n"
-	.string "the LILYCOVE CONTEST HALL.$"
+	.string "the Lilycove CONTEST HALL.$"
 
 SafariZone_South_Text_StillHaveTimeExit:
 	.string "You still have time left. Would you like\n"

@@ -1,8 +1,6 @@
 gText_WouldYouLikeToRestYourPkmn::
 	.string "Hello, and welcome to\n"
 	.string "the Pokémon Center.\p"
-	.string "We restore your tired Pokémon\n"
-	.string "to full health.\p"
 	.string "Would you like to rest your Pokémon?$"
 
 gText_IllTakeYourPkmn::
@@ -10,7 +8,7 @@ gText_IllTakeYourPkmn::
 	.string "for a few seconds.$"
 
 gText_RestoredPkmnToFullHealth::
-	.string "Thank you for waiting.\p"
+	.string "Thank you for waiting.$"
 	.string "We've restored your Pokémon\n"
 	.string "to full health.$"
 
